@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite" parallel="tests" thread-count="3">
+    <test name="SeleniumCodingChallenge1Test">
+        <classes>
+            <class name="SeleniumCodingChallenge1Test"/>
+        </classes>
+    </test>
+    <test name="SeleniumCodingChallenge2Test">
+        <classes>
+            <class name="SeleniumCodingChallenge2Test"/>
+        </classes>
+    </test>
+    <test name="SeleniumCodingChallenge3Test">
+        <classes>
+            <class name="SeleniumCodingChallenge3Test"/>
+        </classes>
+    </test>
+</suite>
